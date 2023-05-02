@@ -1,0 +1,226 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background-color: #000;
+    padding: 10px 0;
+}
+
+section {
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#headerBG {
+    height: 80vh;
+    color: #fff;
+    align-items: center;
+}
+#headerBG .navbar{
+    background-color: #ddd;
+    justify-content: space-between;
+}
+#headerBG h1{
+    font-weight: 800;
+margin-top: 22%;
+font-size: 3rem;
+}
+.btn {
+    color: #fcf8f8;
+    background-color: rgb(243, 99, 46);
+    padding: 15px 20px;
+    margin-right: 20px;
+    font-weight: 650;
+    margin-top: 5px;
+}
+#headerBG h6 {
+    line-height: 1.8;
+    font-size: 1.3em;
+}
+.ServiceCard{
+    position: relative;
+    margin-top: 15px;
+
+}
+.ServiceCard:hover .circle {
+    background-color: rgb(238, 102, 52);
+    color: #fff;
+}
+.ServiceCard img {
+    width: 95%;
+    height: 250px;
+}
+.circle {
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+   margin: -45px 37%;
+   z-index: 2;
+   position: absolute;
+   background-color: #fff;
+   text-align: center;
+}
+.circle i {
+    font-size: 2em;
+    margin-top: 27px;
+}
+.ServiceCard h4{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+#aboutsection {
+    background-color: #f6f6f6;
+}
+#aboutsection img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.offset-md-1 h3{
+    font-weight: 800;
+    font-size: 2.5em;
+    margin-top: 20%;
+    padding:0 20px
+}
+.offset-md-1 p{
+    margin-bottom: 15%;
+    padding:0 20px
+}
+#footer {
+    background: #222;
+}
+#footer h6{
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.footerrow {
+    background: rgba(19, 16, 16, 0.7);
+}
+.copyright{
+    color: #675959;
+    font-weight: 500;
+}
+.copyright a {
+    color: #887676;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6em;
+}
+.icons ul li {
+    display: inline-block;
+    margin-right: 15px;
+    color: #887676;
+    margin-top: 17px;
+}
+
+.nav-link {
+    background-image: linear-gradient(
+      to right,
+      #000,
+      #000 50%,
+      #000 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    margin-right: 20px;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+.nav-link:hover {
+    background-position: 0;
+   }
+.nav-link:before {
+    content: '';
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  .nav-link:hover::before {
+    width:100%;
+  }
+.nav-link {
+    display: inline;
+    position: relative;
+    overflow: hidden;
+  }
+ 
+  .swiper {
+    width: 100%;
+    height: max-content;
+    
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  .circle1 {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+   background-color: #fff;
+   text-align: center;
+}
+  .circle1 img{
+    border-radius: 50%;
+    width: 100%;
+  }
+#commentsection h2{
+    text-align: center;
+    margin-top: 20px;
+}
+#contactForm h2{
+    text-align: center;
+    
+}
+#contactForm .contactbox{
+    box-shadow: 2px 2px 2px 2px #ddd;
+}
+#contactForm .contactbox label {
+    font-weight: 650;
+    margin-top: 15px;
+}
+#contactForm .contactbox  input{
+    border: 0;
+    border-bottom: 2px solid #ddd;
+}
+.contactDBox{
+    box-shadow: 2px 2px 2px 2px #ddd;
+    text-align: center;
+    padding: 2.5em;
+    margin-top: 15px;
+}
+.contactDBox i {
+    font-size: 2.7em;
+}
+.contactDBox a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.3em;
+}
+.contactDBox a:hover{
+    color: #54b3d6;
+}
